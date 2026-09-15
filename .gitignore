@@ -1,0 +1,18 @@
+# Build outputs and release artifacts
+QuickPPPoE.exe
+*.pdb
+*.zip
+
+# Local runtime data
+settings.xml
+connections.pbk
+
+# IDE and operating-system files
+.vs/
+bin/
+obj/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+
