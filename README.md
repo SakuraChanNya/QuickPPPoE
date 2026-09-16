@@ -1,5 +1,6 @@
 # 轻拨 PPPoE
 
+~~到底哪些大学还在让电脑直拨PPPoE啊！不会是广西某211吧~~
 适用于 Windows 10 / 11 的中文 GUI 宽带拨号工具。使用 Windows RAS / PPPoE 协议栈，无第三方依赖、无需安装驱动。附带可运行程序和完整 C# 源码。
 
 ![轻拨 PPPoE 界面预览](docs/screenshot.png)
