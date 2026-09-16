@@ -6,7 +6,7 @@
 
 ## 开始使用
 
-1. 下载或复制 `QuickPPPoE.exe`，双击即可。
+1. 从 [Releases](https://github.com/SakuraChanNya/QuickPPPoE/releases/latest) 下载 `QuickPPPoE-v1.1.1.exe`，双击即可。
 2. 输入运营商提供的宽带账号和密码。
 3. 如运营商指定了 **服务名（service-name）**，在“服务名”框中原样填写，区分大小写；没有指定则留空。
 4. 保持“掉线自动重连”勾选，点击“连接”。
@@ -15,6 +15,14 @@
 需要电脑通过以太网接入能提供 PPPoE 的设备，例如处于桥接模式的光猫。如果路由器已负责拨号，电脑通常无需再次拨号。本程序不修改光猫或路由器配置。
 
 系统需要 .NET Framework 4.8，现代 Windows 10 / 11 通常已自带；这里使用的是系统 Framework，不需要额外安装 .NET 6 SDK。程序以当前用户运行。
+
+当前正式版为 `v1.1.1`。发布文件 `QuickPPPoE-v1.1.1.exe` 的 SHA-256：
+
+```text
+fe2d5a74291bb20db83b66fc01dcb99c293fb84de30e0f892bb5a26811cdc36c
+```
+
+可在 PowerShell 中运行 `Get-FileHash .\QuickPPPoE-v1.1.1.exe -Algorithm SHA256` 核对下载文件。
 
 ## 自动重连的行为
 
@@ -67,3 +75,7 @@
 | 保存的密码无法解密 | 当前 Windows 用户环境可能变化，重新输入密码并保存，或取消记住密码。 |
 
 日志仅保留在界面内，不写长期日志文件，不包含输入的密码。
+
+## 许可证
+
+本项目采用 [GNU General Public License v3.0](LICENSE) 开源。
